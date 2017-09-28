@@ -4,11 +4,8 @@ function forLoop (array) {
     if (i == 1) {
       array.push "I am 1 strange loop."
     }
-    else if (i < 25) {
+    else {
       array.push `"I am ${i} strange loops."`
-    }
-    else if (i == 25) {
-      break;
     }
   }
   return array
